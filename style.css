@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3% 5%;
+    background-color: #185dec;
+}
+
+header > div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header p:first-of-type {
+    font-size: 1rem;
+    color: rgb(230, 219, 219);
+    padding: .5% 0;
+}
+header p:last-of-type {
+    font-size: .8rem;
+    color: rgb(194, 185, 185);
+}
+main h1 {
+    color: #ffffff;
+    padding: 2rem 0 1rem;
+}
+main p {
+    width: 25%;
+    line-height: 1.5rem;
+    color: rgb(194, 185, 185);
+}
+main > div {
+    margin-top: 2rem;
+}
+main > div a{
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    background-color: white;
+    color: #185dec;
+    font-size: 1rem;
+    font-weight: bold;
+}
