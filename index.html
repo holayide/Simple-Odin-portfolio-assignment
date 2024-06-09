@@ -1,31 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple portfolio sample given by odin"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- logos -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Portfolio &mdash; Odin</title>
+  </head>
+  <body>
     <header>
-        <div><img src="./image/olamicrop.jpg" alt="My Picture"></div>
-        <p>Olaide</p>
-        <p>alabi.olamonday2@gmail.com</p>
+      <div class="inner-header">
+        <div class="header-wrapper">
+          <div class="left">
+            <img src="./assets/lady.jpg" alt="A lady looking at her laptop" />
+            <p class="name">Ashley Williams</p>
+          </div>
+
+          <div class="right">
+            <h4>About me</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ea
+              labore explicabo corrupti blanditiis quod ducimus aut temporibus?
+              Autem repellat reiciendis eos nostrum, vitae in architecto iste
+              corporis qui id. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Beatae ea labore explicabo corrupti blanditiis
+              quod ducimus aut temporibus? Autem repellat reiciendis eos
+              nostrum, vitae in architecto iste corporis qui id.
+            </p>
+            <div class="social-links">
+              <a href="#"
+                ><i class="devicon-github-original colored social-link"></i
+              ></a>
+
+              <a href="#"><i class="devicon-linkedin-plain social-link"></i></a>
+
+              <a href="#">
+                <i class="devicon-twitter-original colored social-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <main>
-        <h1>About Me</h1>
-        <p>
-            I'm Olaide Alabi, a recent graduate of Ahmadu Bello University.
-             I embarked on my tech journey a few months ago, and 
-             I'm enthusiastic about my transition. I eagerly anticipate 
-             the opportunity to create visually appealing websites and 
-             bring designs to life through functional web development. 
-             I'm a devout follower of God, and I have a deep passion 
-            for listening to music, reading, and participating in 
-            meaningful conversations.
-        </p>
-        <div><a href="https://www.linkedin.com/in/olaide-alabi-89722b23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Hire me</a></div>
-    </main>
-</body>
+    <section>
+      <div class="container">
+        <h4 class="section-work">My work</h4>
+        <div class="boxes">
+          <!-- 1 -->
+          <div class="box">
+            <p>
+              Screenshot of <br />
+              project
+            </p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="box">
+            <p>Screenshot of <br />project</p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="box">
+            <p>
+              Screenshot of <br />
+              project
+            </p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="box">
+            <p>
+              Screenshot of <br />
+              project
+            </p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="box">
+            <p>
+              Screenshot of <br />
+              project
+            </p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="box">
+            <p>
+              Screenshot of <br />
+              project
+            </p>
+            <div>
+              <div class="work-head">
+                <h5>Project name</h5>
+                <div class="project-links">
+                  <a href="#">
+                    <i class="devicon-github-original colored project-link"></i>
+                  </a>
+
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      class="project-link"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="work-text">
+                Short description of the project. Just a couple sentences will
+                do.
+              </p>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper container">
+        <div class="footer-text">
+          <h4 class="footer-head">Contact me</h4>
+          <p>
+            Please get in touch if you think our <br />work could be mutually
+            beneficial
+          </p>
+          <address class="Contact">
+            <p>
+              1234 Random Road <br />
+              Random Town, California 12345
+            </p>
+            <div>
+              <div class="phone">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  class="footer-logo"
+                >
+                  <title>phone-outline</title>
+                  <path
+                    d="M20,15.5C18.8,15.5 17.5,15.3 16.4,14.9C16.3,14.9 16.2,14.9 16.1,14.9C15.8,14.9 15.6,15 15.4,15.2L13.2,17.4C10.4,15.9 8,13.6 6.6,10.8L8.8,8.6C9.1,8.3 9.2,7.9 9,7.6C8.7,6.5 8.5,5.2 8.5,4C8.5,3.5 8,3 7.5,3H4C3.5,3 3,3.5 3,4C3,13.4 10.6,21 20,21C20.5,21 21,20.5 21,20V16.5C21,16 20.5,15.5 20,15.5M5,5H6.5C6.6,5.9 6.8,6.8 7,7.6L5.8,8.8C5.4,7.6 5.1,6.3 5,5M19,19C17.7,18.9 16.4,18.6 15.2,18.2L16.4,17C17.2,17.2 18.1,17.4 19,17.4V19Z"
+                  />
+                </svg>
+                <a href="tel:555-555-5555">555-555-5555</a>
+              </div>
+
+              <div class="email">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  class="footer-logo"
+                >
+                  <title>email-outline</title>
+                  <path
+                    d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"
+                  />
+                </svg>
+                <a href="mailto:ashleywilliams.is.not.real@gmail.com"
+                  >ashleywilliams.is.not.real@gmail.com</a
+                >
+              </div>
+            </div>
+          </address>
+
+          <div class="footer-links">
+            <a href="#"
+              ><i class="devicon-github-original colored footer-link"></i
+            ></a>
+
+            <a href="#"><i class="devicon-linkedin-plain footer-link"></i></a>
+
+            <a href="#">
+              <i class="devicon-twitter-original colored footer-link"></i
+            ></a>
+          </div>
+        </div>
+
+        <img
+          src="./assets/footer-img.jpg"
+          alt="A women laughing on phone and pressing her laptop"
+        />
+      </div>
+    </footer>
+  </body>
 </html>
+
+<!-- 
+    send
+    
+
+    phone
+   
+
+    message
+    
+ -->
